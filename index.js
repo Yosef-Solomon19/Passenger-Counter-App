@@ -7,10 +7,13 @@ let count = 0;
 function increment() {
     count += 1;
     countEl.textContent = count;
-    return;
+    // console.log(countEl)    
 }
 
 function save() {
     let countstr = count + " - "; 
-    saveEL.textContent += countstr;
+    saveEl.textContent += countstr;
+    // console.log(saveEl)
+    count = 0;
+    countEl.textContent = 0;       
 }
