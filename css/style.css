@@ -28,6 +28,15 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    
+}
+/* 15/4/2022 Wrap buttons in a div container to create double columns. */
+.container {
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0px;    
+    /* border: 2px solid red; */
 }
 
 #increment-btn {
@@ -36,4 +45,19 @@ button {
 
 #save-btn {
     background-color: darkgreen;
+}
+
+#decrement-btn {
+    background-color: darkred;
+}
+
+#reset-btn {
+    background-color: rgb(100, 98, 98);
+}
+
+.entry-log {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+    /* border: 2px green solid; */
 }
