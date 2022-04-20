@@ -59,7 +59,7 @@ function decrement() {
 }
 
 // Save Current Entry 
-// when the function is called it will 
+// when the function is called it will take the entries and display the entries made with the date included
 // Save the entries made with date and time included for the day it was saved.
 // https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement#examples
 // https://stackoverflow.com/questions/10211145/getting-current-date-and-time-in-javascript
@@ -67,3 +67,20 @@ function decrement() {
 //     'en-GB', {hour: "numeric",
 //               minute: "numeric"});
 // console.log(currentDate);
+
+// let entryEl = document.getElementById("entry-el");
+// let logEntry = []; 
+// const currentDate = new Date().toLocaleDateString(
+//     'en-GB', {hour: "numeric", minute: "numeric"});
+
+// function saveEntry(){
+    // logEntry.push(saveEl);
+    // console.log(logEntry.push(saveEl));  
+    // logEntry.toString();
+    // entryEl.outerHTML = logEntry;
+
+    // logEntry.toString();
+    // console.log(logEntry.toString())  
+    // console.log(entryEl.innerText = `${currentDate} ${logEntry.join()}`);
+
+//}
